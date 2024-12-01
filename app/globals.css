@@ -366,7 +366,7 @@
 .cl-userButtonBox {
   display: flex;
   flex-flow: row-reverse;
-  gap: 12px;
+  gap: 8px;
 }
 
 .cl-userButtonOuterIdentifier {
