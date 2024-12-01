@@ -15,7 +15,7 @@ const MobileNav = () => {
     <header className="header">
       <Link href="/" className="flex items-center gap-2">
         <Image
-          src="/assets/images/logo-text.svg"
+          src="/assets/images/PIXIUM.png"
           alt="Logo"
           width={180}
           height={28}
@@ -39,13 +39,13 @@ const MobileNav = () => {
             <SheetContent className="sheet-content sm:w-64">
               <>
                 <Image
-                  src="/assets/images/logo-text.svg"
+                  src="/assets/images/PIXIUM.png"
                   alt="Logo"
                   width={152}
                   height={23}
                 />
 
-                <ul className="header-nav_elements">
+                <div className="header-nav_elements">
                   {navLinks.map((link) => {
                     const isActive = link.route === pathname;
 
@@ -71,7 +71,7 @@ const MobileNav = () => {
                       </li>
                     );
                   })}
-                </ul>
+                </div>
               </>
             </SheetContent>
           </Sheet>
